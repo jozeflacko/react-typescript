@@ -1,17 +1,16 @@
 {
-    "compilerOptions": {        
-        "noImplicitAny": true,
-        "removeComments": true,
-        "preserveConstEnums": true,
-        "sourceMap": true,
-        "jsx":"react",
-        "target":"es5",       
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "jsx": "react",
+      "module": "commonjs",
+      "noImplicitAny": false,
+      "outDir": "./build/",
+      "preserveConstEnums": true,
+      "removeComments": true,
+      "sourceMap": true,
+      "target": "es5"
     },
     "include": [
-        "src/**/*.ts.tsx"
-    ],
-    "exclude": [
-        "node_modules",
-        "**/*.spec.ts"
+      "./src/**/**/*"
     ]
-}
+  }
