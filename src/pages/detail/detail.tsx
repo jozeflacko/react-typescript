@@ -20,7 +20,7 @@ export default class Detail extends React.Component<{}, {}> {
                 <Signature/>
             </div>  
             <div>
-                <LikeButton/>
+                <LikeButton/>how are you
             </div>           
         </div>
     );
